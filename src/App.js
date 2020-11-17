@@ -51,20 +51,20 @@ export default class App extends Component {
 
 
     _handlerUserClick = (idItem) => {
-        this.setState((prevState) => {
-            return {
-                matrix: prevState.matrix.map(elem => {
-                    return elem.map(e => {
-                        if (e.id === idItem) {
-                            return {
-                                ...e,
-                                amount: e.amount + 1
-                            }
-                        }
-                    })
-                })
-            }
-        })
+        // this.setState((prevState) => {
+        //     return {
+        //         matrix: prevState.matrix.map(elem => {
+        //             return elem.map(e => {
+        //                 if (e.id === idItem) {
+        //                     return {
+        //                         ...e,
+        //                         amount: e.amount + 1
+        //                     }
+        //                 }
+        //             })
+        //         })
+        //     }
+        // })
     }
 
     render() {

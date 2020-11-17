@@ -28,13 +28,13 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://ArturStahov.github.io/test_memcrab",
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
-    "homepage": "https://ArturStahov.github.io/test_memcrab",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
